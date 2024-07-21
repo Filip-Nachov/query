@@ -1,5 +1,12 @@
 <img src="photos/query-banner.png">
 
+![Github Last Commit](https://img.shields.io/github/last-commit/Filip-Nachov/query)
+![GitHub contributors](https://img.shields.io/github/contributors/Filip-Nachov/query)
+![GitHub Created At](https://img.shields.io/github/created-at/Filip-Nachov/query)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Filip-Nachov/query)
+![GitHub License](https://img.shields.io/github/license/Filip-Nachov/query)
+
+
 This is a starting point for C++ solutions to the
 ["Build Your Own grep" Challenge](https://app.codecrafters.io/courses/grep/overview).
 
