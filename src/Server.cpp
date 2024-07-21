@@ -10,14 +10,7 @@ bool match_pattern(const string& input_line, const string& pattern) {
         return input_line.find(pattern) != string::npos;
     }
     else if (pattern == "\\d") {
-        for (const auto& c: input_line) {
-            if (isdigit(c)) {
-                return true;
-            }
-            else {
-                return false;
-            }
-        }
+        return input_line.find_first_of("0123456789");
     }
     else if (pattern == "\\w") {
         for (const auto& c: input_line) {
