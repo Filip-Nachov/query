@@ -5,42 +5,33 @@
 ![GitHub Created At](https://img.shields.io/github/created-at/Filip-Nachov/query)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Filip-Nachov/query)
 ![GitHub License](https://img.shields.io/github/license/Filip-Nachov/query)
+<br>
+### ***A simple lightweight, C++ based terminal utility for searching text efficiently in Linux environments.***
 
 
-This is a starting point for C++ solutions to the
-["Build Your Own grep" Challenge](https://app.codecrafters.io/courses/grep/overview).
+# Installation and Build 🛠️
+requirements:
+- git 
+- make
+- g++
 
-[Regular expressions](https://en.wikipedia.org/wiki/Regular_expression)
-(Regexes, for short) are patterns used to match character combinations in
-strings. [`grep`](https://en.wikipedia.org/wiki/Grep) is a CLI tool for
-searching using Regexes.
-
-In this challenge you'll build your own implementation of `grep`. Along the way
-we'll learn about Regex syntax, how parsers/lexers work, and how regular
-expressions are evaluated.
-
-**Note**: If you're viewing this repo on GitHub, head over to
-[codecrafters.io](https://codecrafters.io) to try the challenge.
-
-# Passing the first stage
-
-The entry point for your `grep` implementation is in `src/Server.cpp`. Study and
-uncomment the relevant code, and push your changes to pass the first stage:
-
-```sh
-git add .
-git commit -m "pass 1st stage" # any msg
-git push origin master
+### Windows:
+If you are using Windows, sadly you won't be able to install it directly on the Windows terminal (cmd, PowerShell, etc) unless you have G++, make, and git on your Windows but this is still not recommended because in my experience g++ and make file don't work the best on windows if you manage to install g++ and make while making them work then you will  have to clone the library with:
 ```
+git clone https://github.com/Filip-Nachov/query.git
+cd query
+make
+```
+and then put the query executable in the path
+There is still another way that is recommended and that is with a WSL if you do have a WSL already installed go to the Linux way to install it.
 
-Time to move on to the next stage!
-
-# Stage 2 & beyond
-
-Note: This section is for stages 2 and beyond.
-
-1. Ensure you have `cmake` installed locally
-1. Run `./your_program.sh` to run your program, which is implemented in
-   `src/Server.cpp`.
-1. Commit your changes and run `git push origin master` to submit your solution
-   to CodeCrafters. Test output will be streamed to your terminal.
+### Mac/Os and Linux
+This way is way easier and it is recommended to do it like this you will still need git, make, and g++ but luckily it is proven to work in my experience. To do it on linux or macOS run the following commands:
+```
+git clone https://github.com/Filip-Nachov/query.git
+cd query
+make
+sudo make install
+```
+# Contribution 🤗
+contribution is always welcomed. To do so fork the repo, make your changes, make a pr, and explain in full detail all the changes you did. If these instructions arent met the pr will be rejected. Thank you in forward
