@@ -2,6 +2,7 @@ CC = g++
 TARGET = query
 SOURCE = src/Server.cpp
 BINDIR = $(PREFIX)/bin
+BUILDDIR = ./build
 
 all = $(TARGET)
 
@@ -11,8 +12,12 @@ $(TARGET): $(SOURCE)
 install:
 	install -m 755 $(TARGET) $(BINDIR)
 
+build:
+	mkdir -p $(BUILDDIR)
+	$(CC) $(SOURCE) -o $(BUILDDIR)/$(TARGET)
+
 clean:
-	rm -f $(TARGET)
+	rm -rf $(TARGET) $(BUILDDIR)
 
 .PHONY: all clean install
 
