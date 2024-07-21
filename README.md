@@ -37,6 +37,7 @@ sudo make install
 contribution is always welcomed. To do so fork the repo, make your changes, make a pr, and explain in full detail all the changes you did. If these instructions arent met the pr will be rejected. Thank you in forward
 
 # Check out my other projects
-Check out my other project and my account:
+Check out my other project and my account: <br>
 ![My profile](https://github.com/Filip-Nachov)
+<br>
 ![My repositories](https://github.com/Filip-Nachov?tab=repositories)
