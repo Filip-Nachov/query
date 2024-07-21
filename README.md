@@ -1,5 +1,3 @@
-[![progress-banner](https://backend.codecrafters.io/progress/grep/cf182b53-ec31-4cab-bb1c-a487ac6c3521)](https://app.codecrafters.io/users/codecrafters-bot?r=2qF)
-
 This is a starting point for C++ solutions to the
 ["Build Your Own grep" Challenge](https://app.codecrafters.io/courses/grep/overview).
 
