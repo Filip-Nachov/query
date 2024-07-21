@@ -1,3 +1,5 @@
+<img src="photos/query-banner.png">
+
 This is a starting point for C++ solutions to the
 ["Build Your Own grep" Challenge](https://app.codecrafters.io/courses/grep/overview).
 
