@@ -56,7 +56,7 @@ sudo make install
 To use the `query` utility, you'll need to pass a flag and a pattern as arguments. Here is an example:
 
 ```console
-User@Github:~$ echo "Sample text with numbers 1234 and letters ABCD." | query -E "\\d"
+User@Github:~$ echo "Sample text with numbers 1234 and letters ABCD." | query -E "\d"
 ```
 ### Explanation:
 - `-E`: This flag indicates that a pattern is being provided.
