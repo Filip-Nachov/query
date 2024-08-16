@@ -60,7 +60,7 @@ User@Github:~$ echo "Sample text with numbers 1234 and letters ABCD." | query -E
 ```
 ### Explanation:
 - `-E`: This flag indicates that a pattern is being provided.
-- `\\d`: This pattern matches any digit.
+- `\d`: This pattern matches any digit.
 
 ### Expected Output:
 If the input text contains any digits, the utility will print:
